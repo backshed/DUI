@@ -66,7 +66,11 @@ public class DataManager
 						complete?(nil)
 					}
 				} catch let error as NSError {
-					complete?(error)
+					if let complete = complete {
+						complete(error)
+					} else {
+						DataManager.log("store", detail: error.description)
+					}
 				}
 			}
 		}
@@ -79,7 +83,11 @@ public class DataManager
 				try self.context.save()
 				complete?(nil)
 			} catch let error as NSError {
-				complete?(error)
+				if let complete = complete {
+					complete(error)
+				} else {
+					DataManager.log("save", detail: error.description)
+				}
 			}
 		}
 		return self
