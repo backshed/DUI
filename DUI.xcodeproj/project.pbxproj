@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		87D1F4331C1682D70097CAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D1F3F31C1682AD0097CAC5 /* iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87D1F4181C1682D20097CAC5;
+			remoteInfo = DUI;
+		};
+		87D1F4351C1682D70097CAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D1F3F31C1682AD0097CAC5 /* iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87D1F4221C1682D30097CAC5;
+			remoteInfo = DUITests;
+		};
+		87D1F4391C1682D70097CAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D1F3E91C16829F0097CAC5 /* OSX.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87D1F3FB1C1682C70097CAC5;
+			remoteInfo = DUI;
+		};
+		87D1F43B1C1682D70097CAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D1F3E91C16829F0097CAC5 /* OSX.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87D1F4051C1682C70097CAC5;
+			remoteInfo = DUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87D1F3E91C16829F0097CAC5 /* OSX.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OSX.xcodeproj; path = OSX/OSX.xcodeproj; sourceTree = "<group>"; };
+		87D1F3F31C1682AD0097CAC5 /* iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOS.xcodeproj; path = iOS/iOS.xcodeproj; sourceTree = "<group>"; };
+		87D1F43E1C1682F20097CAC5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		87D1F3DB1C16828E0097CAC5 = {
+			isa = PBXGroup;
+			children = (
+				87D1F43D1C1682DB0097CAC5 /* Configure */,
+				87D1F4301C1682D60097CAC5 /* Source */,
+			);
+			sourceTree = "<group>";
+		};
+		87D1F3EA1C16829F0097CAC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D1F43A1C1682D70097CAC5 /* DUI.framework */,
+				87D1F43C1C1682D70097CAC5 /* DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D1F3F41C1682AD0097CAC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D1F4341C1682D70097CAC5 /* DUI.framework */,
+				87D1F4361C1682D70097CAC5 /* DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D1F4301C1682D60097CAC5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				87D1F43E1C1682F20097CAC5 /* DataManager.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		87D1F43D1C1682DB0097CAC5 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				87D1F3E91C16829F0097CAC5 /* OSX.xcodeproj */,
+				87D1F3F31C1682AD0097CAC5 /* iOS.xcodeproj */,
+			);
+			name = Configure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		87D1F3DC1C16828E0097CAC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = 87D1F3DF1C16828E0097CAC5 /* Build configuration list for PBXProject "DUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87D1F3DB1C16828E0097CAC5;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87D1F3F41C1682AD0097CAC5 /* Products */;
+					ProjectRef = 87D1F3F31C1682AD0097CAC5 /* iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 87D1F3EA1C16829F0097CAC5 /* Products */;
+					ProjectRef = 87D1F3E91C16829F0097CAC5 /* OSX.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		87D1F4341C1682D70097CAC5 /* DUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DUI.framework;
+			remoteRef = 87D1F4331C1682D70097CAC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87D1F4361C1682D70097CAC5 /* DUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DUITests.xctest;
+			remoteRef = 87D1F4351C1682D70097CAC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87D1F43A1C1682D70097CAC5 /* DUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DUI.framework;
+			remoteRef = 87D1F4391C1682D70097CAC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87D1F43C1C1682D70097CAC5 /* DUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DUITests.xctest;
+			remoteRef = 87D1F43B1C1682D70097CAC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		87D1F3E01C16828E0097CAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		87D1F3E11C16828E0097CAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D1F3DF1C16828E0097CAC5 /* Build configuration list for PBXProject "DUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D1F3E01C16828E0097CAC5 /* Debug */,
+				87D1F3E11C16828E0097CAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D1F3DC1C16828E0097CAC5 /* Project object */;
+}
