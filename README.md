@@ -1,2 +1,2 @@
 # DUI
-A wrapper of Core Data for Swift
+A helper class for Core Data with Swift
